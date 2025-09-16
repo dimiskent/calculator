@@ -6,6 +6,7 @@ public class Main {
         System.out.print("Choose operation from:\n1. Addition\n2. Substraction\n3. Multiplication\n4. Division\n");
         int choice = (int) Input.getInput();
         double result;
+        // test
         switch (choice) {
             case 1:
                 // Addition
