@@ -5,7 +5,6 @@ public class Main {
         double num2 = Input.getInput();
         System.out.print("Choose operation from:\n1. Addition\n2. Substraction\n3. Multiplication\n4. Division\n");
         int choice = (int) Input.getInput();
-        // test
         double result;
         switch (choice) {
             case 1:
