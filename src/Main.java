@@ -26,6 +26,7 @@ public class Main {
             default:
                 throw new IllegalArgumentException("Invalid option!");
         }
+        Input.closeInput();
         System.out.println("Result: " + result);
     }
 }
