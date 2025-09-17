@@ -13,6 +13,11 @@ public class Input {
             }
         }
     }
+    public static boolean getBooleanInput() {
+        System.out.print("Choice (y/N): ");
+        char choice = scan.next().toLowerCase().charAt(0);
+        return choice == 'y';
+    }
     public static void closeInput() {
         scan.close();
     }
